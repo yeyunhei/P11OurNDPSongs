@@ -46,7 +46,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:layout_marginLeft="5dp"
-            android:isIndicator="true" />
+            android:isIndicator="true"
+            android:numStars="5"/>
 
     </LinearLayout>
 

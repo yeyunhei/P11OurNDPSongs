@@ -61,7 +61,6 @@ public class CustomAdapter extends ArrayAdapter {
             numstars = "* * * * *";
         }
         tvStars.setText(numstars);*/
-        ratingBarRow.setNumStars(currentSong.getStars());
         ratingBarRow.setRating(currentSong.getStars());
         tvSinger.setText(currentSong.getSingers());
         if (currentSong.getYear() < 2019) {
